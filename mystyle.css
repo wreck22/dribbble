@@ -1,7 +1,8 @@
 .nav {
   top: 10px;
-  margin: 10px;
-  padding: 0px;
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 5px 20px 5px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +14,7 @@
   padding: 0px;
   width: 50vw;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-right {
   display: flex;
@@ -27,4 +29,142 @@
   padding: 15px;
   font-size: medium;
   border-radius: 8px;
+}
+.sign-button:hover {
+  background-color: #f3659b;
+  cursor: pointer;
+}
+.tank {
+  background-color: rgba(252, 249, 249, 0.945);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+}
+.tank-left {
+  width: 700px;
+  height: 300px;
+  font-size: larger;
+  text-align: left;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.img1 {
+  height: 400px;
+  width: 500px;
+}
+.nav2 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+select {
+  border-radius: 4px;
+  width: 100px;
+  padding: 9px;
+  text-align: left;
+  border-color: rgb(211, 209, 209);
+}
+select:hover {
+  cursor: pointer;
+}
+select:focus {
+  border: none;
+  box-shadow: 0px 0px 0px 4px rgb(187, 187, 187);
+}
+button {
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+}
+button:hover {
+  cursor: pointer;
+  border-color: rgb(187, 187, 187);
+}
+button:focus {
+  background-color: rgb(187, 187, 187);
+}
+.middle {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-around;
+}
+.filter {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(211, 209, 209);
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+.footer {
+  height: 500px;
+  background-color: rgb(245, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px 30px 60px;
+}
+.footer-top {
+  display: flex;
+  height: 400px;
+  width: 1300px;
+  font-size: large;
+  justify-content: center;
+  color: rgb(87, 85, 85);
+}
+.pointer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.footer-left {
+  width: 400px;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+}
+.span {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 50px;
+}
+.topic {
+  font-family: "Sacramento", cursive;
+  font-size: larger;
+  width: 100px;
+}
+h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f082ac;
+}
+.li:hover {
+  cursor: pointer;
+  color: #f082ac;
+}
+li:hover {
+  cursor: pointer;
+  color: black;
 }
